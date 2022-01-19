@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*Global / Desktop View*/
+body {
+	background-color: #daa4a4;
+}
+
+#container {
+    width: 800px;
+    background-color: #ffcc33;
+	margin: auto; }
+
+#first {
+background-color: #715a5b;
+width: 800px;
+color: #d49f9f;
+font-size: 50px;
+font-family: 'Playfair Display', serif;
+border: 1px dotted #d76885;
+border-radius: 10px; 
+padding-right: 5px;
+padding-bottom: 5px;
+margin-top: -400px;
+margin-right: -335px;
+float: right;
+text-align: right;
+}
+
+#second {
+background-color: #715a5b;
+width: 800px;
+height: 150px;
+color: #d49f9f;
+font-size: 50px;
+font-family: 'Playfair Display', serif;
+border: 1px dotted #d76885;
+border-radius: 10px; 
+padding-right: 5px;
+margin-top: -20px;
+margin-right: -335px;
+float: right;
+text-align: right;
+}
+
+#third {
+background-color: #715a5b;
+width: 600px;
+height: 218px;
+color: #d49f9f;
+font-size: 40px;
+font-family: 'Playfair Display', serif;
+border: 1px dotted #d76885;
+border-radius: 10px; 
+padding-right: 5px;
+float: right;
+margin-top: -140px;
+margin-right: 500px;
+text-align: right;
+}
+
+nav {
+margin-left: 1250px;
+margin-top: 150px
+}
+
+
+
+/*Tablet View*/
+@media (min-width: 400px) and (max-width: 450px){
+header {
+    width: 40px;
+    height: 225px;
+}
+#container {
+    min-width: 400px;
+    max-width: 450px;
+}
+#first {
+    min-width: 400px;
+    max-width: 450px;
+    position: bottom;
+}
+}
+
+@media (max-width: 400px){
+}
